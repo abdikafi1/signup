@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SighUp</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">SignUp</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/1.jpg" alt="left image" style="border-radius: 5%;" class="w-100">
+            </div>
+            <div class="col-md-6">
+               <form id="form">
+                   <div class="row">
+                       <!-- Name fileds -->
+                       <div class="col-md-6">
+                           Adı:
+                           <input type="text" id="txtFirstName" placeholder="FistName" class="form-control form-control-sm">
+                       </div>
+                       <div class="col-md-6">
+                        soyadı:
+                        <input type="text" id="txtLastName" placeholder="LastName"class="form-control form-control-sm">
+                       </div>
+
+                       <!-- password field -->
+                       <div class="col-md-6">
+                        Şıfre:
+                        <input type="text" id="txtPassword" placeholder="Password" class="form-control form-control-sm">
+                       </div>
+                       <div class="col-md-6">
+                        tekrar Şıfre
+                        <input type="text" id="txtcPassword" placeholder="Confirm Password" class="form-control form-control-sm">
+                       </div>
+                       <!-- Email Column -->
+                       <div class="col-md-12">
+                        Email:
+                        <input type="text" id="txtEmail" placeholder="Email" class="form-control form-control-sm">
+                       </div>
+                       <!-- phone column -->
+                       <div class="col-md-12">
+                           Telefon:
+                           <input type="text" id="txtphone" placeholder="Phone #" class="form-control form-control-sm" >
+                       </div>
+                       <div class="col-md-6 mt-4">
+                           <input type="submit" value="Iptal" class="btn btn-danger" id="btncancel" class="w-100" placeholder="Cancel">
+                       </div>
+                       <div class="col-md-6 mt-4">
+                           <input type="submit" value="Kaydet" class="btn btn-success" id="btnsave" class="w-100" placeholder="Save">
+                       </div>
+                       <div class="col-md-12 text-center">
+                           <span id="geterror">
+                              
+                           </span>
+                       </div>
+                   </div>
+               </form> 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/js.js"></script>
+    <script src="bootstrap/js/jquery-3.0.0.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src=""></script>
+    <script src=""></script>
+</body>
+</html>
